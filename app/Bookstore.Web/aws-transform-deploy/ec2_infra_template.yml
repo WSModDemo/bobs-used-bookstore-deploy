@@ -8,7 +8,7 @@ Parameters:
   SubnetId:
     Type: AWS::EC2::Subnet::Id
     Description: Subnet where the EC2 instance will be deployed
-    
+    Default: subnet-060bd55586574aa06
 
   SecurityGroupIds:
     Type: List<AWS::EC2::SecurityGroup::Id>

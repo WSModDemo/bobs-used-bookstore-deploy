@@ -15,6 +15,7 @@ Parameters:
   SubnetIds:
     Type: String
     Description: 'Subnet Ids for the ECS Service'
+    Default: 'subnet-060bd55586574aa06'
 
   SecurityGroupIds:
     Type: String
