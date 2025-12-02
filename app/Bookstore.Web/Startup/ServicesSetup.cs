@@ -55,7 +55,7 @@ namespace Bookstore.Web.Startup
             if (!string.IsNullOrEmpty(connString))
             {
                 Console.WriteLine("Using localdb connection string");
-//                return connString;
+                return connString;
             }
 
 //            try
@@ -112,4 +112,5 @@ namespace Bookstore.Web.Startup
             return connString;
         }
     }
+
 }
