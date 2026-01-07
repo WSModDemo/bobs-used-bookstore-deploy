@@ -22,11 +22,6 @@ The process consists of the following steps:
 
 When using the AWS Transform Web UI to provide infrastructure parameter values, the templates are automatically populated with these defaults.
 
-```
-    EcsClusterName = "AWSTransform-Cluster-1-9bfae5"
-    Region = "us-east-1"
-    KmsKeyId = ""
-```
 However, you can override any defaults by:
 
 1. modifying parameters in the CloudFormation template directly
@@ -38,7 +33,7 @@ This script uses the provided template to automate the infrastructure provisioni
 
 Run this script:
 ```
-powershell ./deploy_infra.ps1 -DeploymentType ECS
+powershell ./deploy_infra.ps1 -EcsClusterName my-ecs-cluster -DeploymentType ECS
 ```
 
 The script:
